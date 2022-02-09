@@ -1,0 +1,7 @@
+{
+	title: "Chapter I: The beginning",
+	icon: "minecraft:sand",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}
