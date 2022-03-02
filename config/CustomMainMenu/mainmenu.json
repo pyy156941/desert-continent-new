@@ -3,7 +3,7 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "image" : "mainmenu:textures/gui/desertcontinent.png",
             "posX" : -137,
             "posY" : 30,
             "width" : 512,
@@ -13,7 +13,7 @@
         
         "edition":
         {
-            "image" : "custommainmenu:textures/gui/edition.png",
+            "image" : "mainmenu:textures/gui/edition.png",
             "posX" : -49,
             "posY" : 67,
             "width" : 128,
@@ -110,6 +110,7 @@
         "refresh":
         {
             "text" : "",
+            "tooltip": "Click here to refresh!", 
             "posX" : -154,
             "posY" : 132,
             "width" : 20,

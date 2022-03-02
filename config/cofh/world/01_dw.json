@@ -1,0 +1,75 @@
+{
+	"priority": 2,
+	"populate": {
+		"stony-stone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:stony_sandstone", 
+				"material": "minecraft:sandstone", 
+				"cluster-size": 12
+			}, 
+			"cluster-count": 10, 
+			"min-height": 40,
+			"max-height": 60, 
+			"dimension": {
+				"restriction": "whitelist", 
+				"value": [
+					0
+				]
+			}
+		},
+
+		"ore-stone": {
+			"distribution": "uniform", 
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:sandstone",
+						"metadata": 0, 
+						"weight": 50
+					},
+					{
+						"name": "contenttweaker:ore_stone", 
+						"weight": 30
+					}, 
+					{
+						"name": "minecraft:air", 
+						"weight": 20
+					}
+				], 
+				"material": [
+					"sand",
+					"sandstone", 
+					"air"
+				], 
+				"diameter": 3, 
+				"size-variance": 4, 
+				"min-height": 70, 
+				"max-height": 80, 
+				"dimension": {
+					"restriction": "whitelist", 
+					"value": [
+						0
+					]
+				}
+			}
+		}, 
+		"hard-sandstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:hard_sandstone", 
+				"material": "minecraft:sandstone", 
+				"cluster-size": 8
+			}, 
+			"cluster-count": 10, 
+			"min-height": 5,
+			"max-height": 20, 
+			"dimension": {
+				"restriction": "whitelist", 
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}
